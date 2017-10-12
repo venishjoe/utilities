@@ -5,9 +5,12 @@ Coeus.iml
 # Output & Data Directory
 out
 data
+coeus
 
 # Compiled class file
 *.class
+*.o
+*.exe
 
 # Log file
 *.log
