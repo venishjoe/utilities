@@ -5,7 +5,8 @@ Coeus.iml
 # Output & Data Directory
 out
 data
-coeus
+c_java
+c_go
 
 # Compiled class file
 *.class
