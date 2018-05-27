@@ -21,6 +21,10 @@ coeus
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Others
+*.key
+*.data
+
 # Package Files #
 *.jar
 *.war
