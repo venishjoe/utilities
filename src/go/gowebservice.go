@@ -109,7 +109,7 @@ func main() {
 //Function to handle fatal errors
 func handleFatalError(fatalError error) {
 	if fatalError != nil {
-		log.Fatal(fatalError)
+		fmt.Println(fatalError)
 		return
 	}
 }
