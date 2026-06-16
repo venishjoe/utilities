@@ -15,7 +15,7 @@ utilities/
 ├── src/
 │   ├── java/        # Java-based CLI tools
 │   ├── go/          # Go binaries and scripts
-│   └── python/      # Python automation scripts
+│   └── pwsh/        # PowerShell automation scripts
 └── README.md
 
 ```
@@ -46,7 +46,6 @@ To run these utilities, you will need the respective runtimes installed on your 
 
 * **Go:** `1.20+`
 * **Java:** `JDK 17+`
-* **Python:** `3.10+`
 
 ---
 
