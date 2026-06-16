@@ -34,7 +34,7 @@ utilities/
 | **Java** | `JVMAttach`       | AA Java runtime utility that leverages the Attach API to dynamically discover running Java Virtual Machines (JVMs) and inject diagnostic or profiling agents into them.    |
 | **Java** | `JavaClassLoader` | A custom ClassLoader utility that bypasses the file system by directly converting a hardcoded array of decimal values into raw bytes to dynamically load a Java class file directly from memory.    |
 | **Java** | `JavaCreateSource`| A code-generation utility that utilizes the CodeModel library to programmatically define, build, and output a valid Java source file containing a specified class and method structure.    |
-| **PowerShell** | | This PowerShell script scans a specified directory for .mov files, extracts their internal media creation metadata using FFmpeg, and updates the Windows file system timestamps (Creation, Last Write, and Last Access times) to match that localized metadata. |
+| **PowerShell** | `videodate` | This PowerShell script scans a specified directory for .mov files, extracts their internal media creation metadata using FFmpeg, and updates the Windows file system timestamps (Creation, Last Write, and Last Access times) to match that localized metadata. |
 
 ---
 
