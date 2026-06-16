@@ -28,11 +28,13 @@ utilities/
 | -------- | ----------------  | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Go**   | `gorename`        | A batch file-renaming tool that recursively walks a directory to modify filenames by trimming a specific number of prefix characters and prepending a custom, sequentially numbered string. |
 | **Go**   | `gowebservice`    | A bulk HTTP automation utility that reads a delimited text file to sequentially execute and log the results of multiple GET and PUT web service requests.                                   |
+| **Go**   | `syscall`      | A Go utility that prints the host operating system and retrieves storage statistics for a specific drive using native Windows API calls.|
 | **Java** | `ByteCodeEditor`  | A Java bytecode manipulation utility using the Javassist library to perform static analysis, inject new source code, and directly rewrite low-level OPCODES inside compiled class files.    |
 | **Java** | `BytClass2Byte`   | A file-to-byte conversion utility that reads any input file into memory and outputs its raw contents as a comma-delimited string of decimal byte values to a specified destination file.    |
 | **Java** | `JVMAttach`       | AA Java runtime utility that leverages the Attach API to dynamically discover running Java Virtual Machines (JVMs) and inject diagnostic or profiling agents into them.    |
 | **Java** | `JavaClassLoader` | A custom ClassLoader utility that bypasses the file system by directly converting a hardcoded array of decimal values into raw bytes to dynamically load a Java class file directly from memory.    |
 | **Java** | `JavaCreateSource`| A code-generation utility that utilizes the CodeModel library to programmatically define, build, and output a valid Java source file containing a specified class and method structure.    |
+| **PowerShell** | | This PowerShell script scans a specified directory for .mov files, extracts their internal media creation metadata using FFmpeg, and updates the Windows file system timestamps (Creation, Last Write, and Last Access times) to match that localized metadata. |
 
 ---
 
@@ -85,5 +87,3 @@ For scripting languages, you can run the source file directly through the langua
 ## 🛡️ License
 
 This repository is licensed under the **MIT License**. Feel free to use, modify, and distribute these tools as you see fit.
-
-```
